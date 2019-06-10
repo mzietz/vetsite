@@ -103,9 +103,11 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/background.jpg) left top repeat;
+	background:url(../img/background2.jpg) left top repeat;
 	background-size: 100%;
-	padding:160px 0;
+	padding: 0;
+	padding-top:80px;
+	padding-bottom:320px;
 }
 .logo{
 	width:130px;
