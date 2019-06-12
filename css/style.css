@@ -67,6 +67,7 @@ body {
 	color:#888888;
 	margin:0;
 }
+
 h2{
 	font-size:34px;
 	color:#222222;
@@ -103,14 +104,14 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/background2.jpg) left top repeat;
+	background:url(../img/bz_background.png) left top repeat;
 	background-size: 100%;
 	padding: 0;
 	padding-top:80px;
 	padding-bottom:320px;
 }
 .logo{
-	width:130px;
+	width:300px;
 	margin:0 auto 35px;
 }
 .header h1{
@@ -119,7 +120,7 @@ p{
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:#fff;
+	color:#555;
 }
 
 .we-create{
@@ -133,7 +134,7 @@ p{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
-	color: #bcbcbc;
+	color: #555;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
@@ -222,6 +223,11 @@ color: #fff;
 	padding:0 32px;
 }
 
+.smaller-logo{ 
+	height: 40px;
+}
+
+
 .main-section{
 	margin-bottom: 50px;
 	padding:50px 0 20px;
@@ -260,12 +266,12 @@ color: #fff;
 ---------------------------------*/
 
 .footer{
-	background-color: #999;
+	background-color: #DDD;
 	padding:35px 0 35px;
 }
 .footer-logo{
-	margin:15px auto 35px;
-	width: 76px;
+	margin:5px auto 20px;
+	width: 150px;
 }
 .copyright, .credits{
 	color:#cccccc;
