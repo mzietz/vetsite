@@ -273,13 +273,14 @@ color: #fff;
 	margin:5px auto 20px;
 	width: 150px;
 }
-.copyright, .credits{
-	color:#cccccc;
+.copyright, .credits, .impressum{
+	color:#888888;
 	font-size:14px;
 	display:block;
 	text-align:center;
+
 }
-.copyright a, .credits a{
+.copyright a, .credits a, .impressum a{
 	color:#7cc576;
 	font-weight:600;
 	text-decoration: none;
@@ -288,8 +289,17 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.copyright a:hover, .credits a:hover {
+.copyright a:hover, .credits a:hover, .impressum a:hover{
 	color: #fff;
+}
+
+.impressum{
+margin-bottom: 1rem;
+
+}
+.impressum a{
+color:#555555;
+
 }
 
 .res-nav_click {
